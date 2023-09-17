@@ -51,7 +51,7 @@ body{
     height: 88vh;
     display: flex;
     justify-content: space-around;
-    background-image: url("img\shutterstock.jpg");
+    background-image: url("img/shutterstock.jpg");
     background-size: contain;
     opacity: 0.9;
 }
@@ -184,7 +184,7 @@ body{
     border-radius: 10px;
 }
 .service-dis{
-    background-image: url("img\cleaning1.jpeg");
+    background-image: url("img/cleaning1.jpeg");
     background-size: cover;
     height: 80vh;
 }
