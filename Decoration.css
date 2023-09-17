@@ -1,0 +1,310 @@
+body{
+    box-sizing: border-box;
+}
+.top{
+    background-color: #2f7cf0;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+#navi{
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 3;
+}
+.navbar{
+    list-style-type: none;
+    font-size: large;
+    cursor: pointer;
+}
+.lists{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    font-size: medium;
+}
+#logos{
+    width: 12rem;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#logos1{
+    width: 3rem;
+    margin-top: -1rem;
+}
+#call{
+    width: 10rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+#statement{
+    width: 30vw;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 10rem;
+}
+#Header{
+    /* background-color: #2f7cf0; */
+    height: 88vh;
+    display: flex;
+    justify-content: space-around;
+    background-image: url("F:/churu app/img/shutterstock.jpg");
+    background-size: contain;
+    opacity: 0.9;
+}
+#loginForm{
+    background-color: #fff;
+    height: 80vh;
+    width: 30vw;
+    margin-top: 4rem;
+    border-radius: 20px;
+    padding: 30px;
+}
+.texter3{
+    background-color: #1239ac;
+    color: #fff;
+    width: 20rem;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.texter{
+    border: none;
+    padding: 10px;
+    margin-left: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 20rem;
+    cursor: pointer;
+}
+.word4{
+    font-size: 2rem;
+}
+.word1{
+    font-size: 3em;
+    font-variant: small-caps;
+}
+.word2, .word3{
+    font-weight: 600;
+    font-variant: small-caps;
+}
+.colr{
+    background-color: rgb(255, 187, 0);
+    padding: 10px;
+}
+.discription{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.boxes{
+    background-color: #fff;
+    padding: 60px;
+    margin: 1em;
+    width: 21vw;
+    height: 75vh;
+    border-radius: 20px;
+}
+.boxes:hover{
+    background-color: rgb(255, 187, 0);
+    color: #fff;
+}
+.disc{
+    background-color: #fff;
+    width: 10vw;
+    padding: 30px;
+    margin-left: 1em;
+    border-radius: 100px;
+}
+.disimag{
+    width: 5rem;
+}
+.h5 , .p3{
+    margin-top: 2rem;
+    text-align: center;
+}
+#review{
+    display: flex;
+    background-color: rgb(236, 234, 234);
+}
+#img3{
+    position: relative;
+}
+#img2{
+    width: 40vw;
+    padding: 10px;
+    margin-top: 1em;
+    margin-left: 50px;
+    border-radius: 500px;
+}
+#img4{
+    background-color: rgb(255, 187, 0);
+    color: #000000;
+    padding: 50px;
+    width: 12vw;
+    position: absolute;
+    border-radius: 100px;
+    margin-top: -30em;
+    margin-left: 2em;
+}
+#img5{
+    position: absolute;
+    margin-left: 22em;
+    margin-top: 6em;
+    border: #fff solid 5px;
+    width: 15vw;
+    border-radius: 100px;
+}
+#review-dis{
+    width: 50vw;
+    padding: 50px;
+    margin-left: 2em;
+}
+.bton{
+    width: 15em;
+    font-weight: 500;
+}
+.list-box{
+    list-style-type: disc;
+    font-weight: 400;
+}
+#contact-btn{
+    padding: 10px;
+    width: 10em;
+    background-color: #1239ac;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+}
+.service-dis{
+    background-image: url("F:/churu app/img/cleaning1.jpeg");
+    background-size: cover;
+    height: 80vh;
+}
+.dropdown{
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 25rem;
+    /* box-shadow: 2px 2px 4px #000000; */
+    text-align: center;
+    color: #df6969;
+    text-shadow: 2px 2px 8px red;
+    font-size: larger;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+.dropdown-box1, .dropdown-box2, .dropdown-box3{
+    display: none;
+}
+.dropbtn1:hover +.dropdown-box1{
+    display: block;
+}
+.dropbtn2:hover +.dropdown-box2{
+    display: block;
+}
+.dropbtn3:hover +.dropdown-box3{
+    display: block;
+}
+#enquire{
+    width: 90%;
+    margin: auto;
+    background-color: #1239ac;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+
+#contact-img{
+    border-radius: 80px;
+    width: 25vw;
+    margin: 20px;
+}
+.fontiee{
+    border-radius: 10px;
+    padding: 10px;
+    width: 22rem;
+    margin-left: 1rem;
+}
+#feedes{
+    margin-left: 20rem;
+    margin-top: 2rem;
+}
+.tex{
+    color: #fff;
+}
+.feed-back{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffff;   
+    width: 20rem;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.textbox{
+    resize: none;
+}
+#btn8{
+    background-color: #fff;
+    color: #000000;
+    font-variant: small-caps;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin-left: 1rem;
+}
+.footer{
+    background-color: #1239ac;
+    height: 78vh;
+    display: flex;
+    color: #fff;
+}
+#about-us{
+    width: 20rem;
+    margin-top: 8rem;
+    margin-left: 2rem;
+}
+.unorder{
+    width: 20rem;
+    padding: 20px;
+    list-style-type: disc;
+    margin-left: 10px;
+    margin-top: 8rem;
+}
+.footer .illustration {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+@keyframes animated{
+0%, 100% {
+    transform: translateX(0px);
+}
+50% {
+    transform: translateX(-50px);
+}
+}
+.illustration img{
+    height:5rem;
+    animation: fadeRightLeft 10s linear infinite;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: animated;
+}
+.copyright{
+    height: 14vh;
+}
